@@ -1,0 +1,5 @@
+pickle
+python-telegram-bot==13.0
+numpy
+pandas
+emoji==1.2.0
