@@ -287,7 +287,7 @@ def start3(update, context):
     update.message.reply_text(last_sual1)
     update.message.reply_text("Yeni sual - /random")
 def main():
-    updater = Updater("1547943488:AAE6HdrGXhDNcNqi2qggBeCoImWflQzcPfI", use_context=True)
+    updater = Updater("1911649371:AAHCRahT-rpWGhdxHFZ4ddDqZIHyxjHzc0Q", use_context=True)
     
     dp = updater.dispatcher
     dp.add_handler(CommandHandler('start', startt))
