@@ -15,6 +15,8 @@ Created on Wed Feb 24 20:07:52 2021
 #doc = docx2txt.process(r"C:\Users\ahmed\Desktop\PhD\felsefe\yeni test -2020-01.docx")
 #doc2 = docx2txt.process(r"C:\Users\ahmed\Desktop\PhD\felsefe\felsefe500.docx")
 import pickle
+import os
+PORT = int(os.environ.get('PORT', 5000))
 #pickle.dump(doc, open("doc1.pk", "wb"))
 #pickle.dump(doc2, open("doc2.pk", "wb"))
 doc=pickle.load(open("doc1.pk", "rb"))
