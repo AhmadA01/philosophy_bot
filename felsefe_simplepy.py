@@ -98,7 +98,7 @@ def get_sual2():
             a=i.split("  ")
             for t in a:
               var_final.append(t.strip()) 
-              sual_text.append(emoji.emojize(' :key: ')+t.strip())
+              sual_text.append(emoji.emojize(' :large_blue_diamond: ')+t.strip())
               nn+=1
     sual_text2=[]
     if len(sual_text)<6:
@@ -108,7 +108,7 @@ def get_sual2():
             if anss in h:
                 tmp = h.split()
                 sual_text2.append(h.replace(anss,""))
-                sual_text2.append(emoji.emojize(' :key: ')+anss)
+                sual_text2.append(emoji.emojize(' :large_blue_diamond: ')+anss)
             else:
                 sual_text2.append(h)
         sual_text=sual_text2
@@ -131,7 +131,7 @@ def get_sual3(n):
                 a=i.split("  ")
                 for t in a:
                   var_final.append(t.strip()) 
-                  sual_text.append(emoji.emojize(' :key: ')+t.strip())
+                  sual_text.append(emoji.emojize(' :large_blue_diamond: ')+t.strip())
                   nn+=1
     sual_text2=[]
     if len(sual_text)<6:
@@ -141,7 +141,7 @@ def get_sual3(n):
             if anss in h:
                 tmp = h.split()
                 sual_text2.append(h.replace(anss,""))
-                sual_text2.append(emoji.emojize(' :key: ')+anss)
+                sual_text2.append(emoji.emojize(' :large_blue_diamond: ')+anss)
             else:
                 sual_text2.append(h)
         sual_text=sual_text2
