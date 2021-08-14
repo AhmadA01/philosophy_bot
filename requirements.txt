@@ -1,4 +1,4 @@
-pickle
+pickle5==0.0.11
 python-telegram-bot==13.0
 numpy
 pandas
